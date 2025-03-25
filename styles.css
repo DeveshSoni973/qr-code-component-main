@@ -1,0 +1,44 @@
+/* Global Styles */
+body {
+    background-color: hsl(212, 45%, 89%); /* Slate 300 */
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%); /* Slate 500 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* White Box (QR Card) */
+  .outmost_container {
+    background-color: hsl(0, 0%, 100%); /* White */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styling */
+  .imagebox img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Text Styling */
+  .upper_text {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%); /* Slate 900 */
+    margin: 15px 0;
+  }
+  
+  .lower_text {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%); /* Slate 500 */
+    margin-bottom: 0;
+  }
+  
